@@ -1,0 +1,14 @@
+http://groovy-lang.org/groovyc.html
+
+what is going on behinde the scene?
+
+compile groovy sources into byte code
+
+> groovyc .\Person.groovy
+
+=>.class file
+
+
+> groovyc *.groovy
+> groovy Application
+> groovy Application.groovy

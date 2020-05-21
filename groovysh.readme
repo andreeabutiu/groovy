@@ -1,0 +1,53 @@
+http://groovy-lang.org/groovysh.html
+
+
+PS C:\Windows\system32> groovysh
+Groovy Shell (3.0.3, JVM: 1.8.0_251)
+Type ':help' or ':h' for help.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+groovy:000> println "Hello"
+Hello
+===> null
+groovy:000> 1+3
+===> 4
+groovy:000> class Foo {
+groovy:001>     def bar() {
+groovy:002>         println "baz"
+groovy:003>     }
+groovy:004> }
+===> true
+groovy:000> foo = new Foo()
+===> Foo@79c5636f
+groovy:000> foo.bar()
+baz
+===> null
+groovy:000> :help
+
+For information about Groovy, visit:
+    http://groovy-lang.org
+
+Available commands:
+  :help      (:h ) Display this help message
+  ?          (:? ) Alias to: :help
+  :exit      (:x ) Exit the shell
+  :quit      (:q ) Alias to: :exit
+  import     (:i ) Import a class into the namespace
+  :display   (:d ) Display the current buffer
+  :clear     (:c ) Clear the buffer and reset the prompt counter
+  :show      (:S ) Show variables, classes or imports
+  :inspect   (:n ) Inspect a variable or the last result with the GUI object browser
+  :purge     (:p ) Purge variables, classes, imports or preferences
+  :edit      (:e ) Edit the current buffer
+  :load      (:l ) Load a file or URL into the buffer
+  .          (:. ) Alias to: :load
+  :save      (:s ) Save the current buffer to a file
+  :record    (:r ) Record the current session to a file
+  :history   (:H ) Display, manage and recall edit-line history
+  :alias     (:a ) Create an alias
+  :set       (:= ) Set (or list) preferences
+  :grab      (:g ) Add a dependency to the shell environment
+  :register  (:rc) Register a new command with the shell
+  :doc       (:D ) Open a browser window displaying the doc for the argument
+
+For help on a specific command type:
+    :help command

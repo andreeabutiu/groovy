@@ -1,0 +1,19 @@
+A closure is an anonymous block of code
+
+- iteratos : lists, maps
+
+- callbacks
+
+- Higher-order functions : functions that are calling other functions
+
+- specialized control structure
+
+- builders: HTML, XML
+
+- resource allocation : nice API to open file and not worry about closing them
+
+- threads
+
+- DSLs
+
+- Fluent interfaces : take a lot of noise , poluted code

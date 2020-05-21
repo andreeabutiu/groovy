@@ -1,0 +1,20 @@
+http://groovy-lang.org/semantics.html#_power_assertion
+
+//provide an assertion an expression that evaluates to true
+assert true
+
+assert 1 == 1
+
+def x = 1
+assert x == 1
+
+// what happens when the expression doesn't evaluate to true?
+assert false
+
+assert 1 == 2
+
+assert 1 == (3+10)*100/5*20
+
+//use shift operator to add a number to our list
+def x1 = [1,2,3,4,5]
+assert (x1<<6) == [6,7,8,9,10]
