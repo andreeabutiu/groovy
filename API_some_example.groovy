@@ -128,12 +128,9 @@ restfull.get( path: '/booking') { response, json ->
 //add in header key: Cookie, Value: token={{token}}
 
 
-/*
-
 Map<String, String> headers = new HashMap<String, String>(["Cookie": "token=$token"])
 
 restClient.defaultRequestHeaders.'Cookie' = "token=$token"
 
-
-
- */
+Map<String, String> headers = new HashMap<String, String>(["Cookie": "token=$token"])
+restfull.defaultRequestHeaders << headers
